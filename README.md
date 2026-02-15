@@ -12,3 +12,12 @@ if password == 1234:
     print("Acceso concedido")
 else:
     print("Acceso denegado")
+
+
+password = input("Clave: ")
+
+# CORRECCIÓN: Quitamos los prints de debug y comparamos texto con texto ("1234").
+if password == "1234": 
+    print("Acceso concedido")
+else:
+    print("Acceso denegado")
